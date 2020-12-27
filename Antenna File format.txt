@@ -1,0 +1,49 @@
+Both V and H Files end in .TSV
+
+    '0 to 359 degrees
+    'antenna gain in dB
+    'data follows "RFE_Antenna_Pattern H" without the '_'s
+
+RFE Antenna Pattern H
+0
+0
+0
+-.995
+-.990
+
+etc.
+
+
+Vertical file
+	'90 to -90
+	'antenna gain in dB
+	'Data follows "RFE Antenna Pattern V"
+
+
+
+===================================================================
+
+Generic H and V files.
+
+File extentions are 'gh' or 'vh'
+
+    'Horizontal pattern file 
+    'the data is comma delimited
+    'azimuth,Field <CRLF>
+    'valid azimuths are 0 to 359
+    'valid fields are 0.001 to 1
+    '
+    'The data starts with "DATA START"
+    'The Data ends with an azimuth and field value of zero
+    'or end of file.
+
+    'Vertical pattern file 
+    'the data is comma delimited
+    'elevation,Field <CRLF>
+    'valid elevations are -90 to 90
+    'Elevation 0 is perpendicular to the ground
+    'valid fields are 0.001 to 1
+    '
+    'The data starts with "DATA START"
+    'The Data ends with am azimuth and field value of zero
+    'or end of file.

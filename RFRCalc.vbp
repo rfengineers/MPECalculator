@@ -1,0 +1,62 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}#1.0#0#C:\Windows\System32\msdatsrc.tlb#Microsoft Data Source Interfaces
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#C:\Windows\SysWOW64\scrrun.dll#Microsoft Scripting Runtime
+Reference=*\G{CB8D0DA5-EC5C-4E80-BA5F-FFA16E09148E}#1.6#0#C:\Program Files (x86)\rfSoftware\rfSTool01.dll#rfSoftware - Library of common tools 01
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; COMDLG32.OCX
+Form=frmMPESCalc.frm
+Form=frmTest.frm
+Module=modTwoPoint; modTwoPoint.bas
+Form=frmSource2.frm
+Form=frmSplash.frm
+Class=clsDataStructures; clsDataStructures.cls
+Class=clsEmitter; clsEmitter.cls
+Class=clsTwoPoints; clsTwoPoints.cls
+Module=Module1; Module1.bas
+Class=CScale; CScale.cls
+IconForm="frmSplash"
+Startup="Sub Main"
+HelpFile=""
+Title="MPECalc"
+ExeName32="InHouseMPECalc.exe"
+Path32="..\..\Documents and Settings\joed\Desktop"
+Command32=""
+Name="RFRCalc"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=8
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="rfEngineers, Inc."
+VersionFileDescription="MPE Calculator"
+VersionLegalCopyright="Copyright 2004 by Joseph M. DiPietro, All Rights Reserved."
+VersionProductName="MPE Calculator"
+CondComp="InHouse = 0 : InHouseTrue = 0"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=-1
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=-1
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=frmMain
+DeleteClass2=frmMain
+DeleteClass3=modMain
+DeleteClass4=modBMP
+DeleteClass5=ColorScale

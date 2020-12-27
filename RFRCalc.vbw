@@ -1,0 +1,10 @@
+frmMPESCalc = 762, 303, 1226, 831, Z, 143, 196, 647, 724, C
+frmMPECalc = 92, 24, 937, 755, C, 108, 144, 865, 628, C
+modTwoPoint = 962, 29, 1616, 828, C
+frmSource = 132, 174, 1188, 829, C, 55, 117, 335, 459, C
+frmSplash = 194, 1, 972, 525, C, 436, 32, 789, 599, C
+clsDataStructures = 0, 0, 0, 0, C
+clsEmitter = 220, 220, 1014, 831, C
+clsTwoPoints = 121, 134, 915, 745, C
+Module1 = 14, 16, 911, 911, C
+CScale = 97, 102, 910, 713, C
